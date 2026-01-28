@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Andrew Sazonov <andrew.sazonov@icloud.com>"]
+channels = ["conda-forge"]
+name = "diffraction"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+copier = ">=9.11.3,<10"

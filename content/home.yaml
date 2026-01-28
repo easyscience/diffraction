@@ -1,0 +1,119 @@
+hero:
+  title: Making _diffraction_ data analysis and modelling _easy_
+  description: >-
+    An intuitive and user-friendly application which integrates some
+    crystallographic libraries such as
+    [CrysPy](https://github.com/ikibalin/cryspy) and
+    [CrysFML](https://code.ill.fr/scientific-software/crysfml) (experimental).
+    Allowing for the simulation of diffraction patterns based on structural
+    models and refinement against experimental data.
+  poster: assets/img/hero_lightmode.png
+  videos:
+    - video: assets/video/hero.webm
+    - video: assets/video/hero.ogg
+    - video: assets/video/hero.mp4
+
+features:
+  - icon: icon-open-source
+    title: Free and open-source
+    description: >-
+      Anyone is free to use **EasyDiffraction** and the source code is openly
+      shared on GitHub.
+  - icon: icon-multiple-devices
+    title: Cross-platform
+    description: >-
+      **EasyDiffraction** works across operating systems: macOS, Windows, or
+      Linux.
+  - icon: fas fa-thumbs-up
+    title: Easy to use
+    description: >-
+      Intuitive tabbed interface with a clear workflow, built-in step-by-step
+      user guides and video tutorials help speed up data modelling and analysis.
+  - icon: icon-package
+    title: Everything is included
+    description: >-
+      **EasyDiffraction** is distributed as an all-in-one package that includes
+      all the dependencies and can be installed with only a few clicks.
+  - icon: icon-swiss-army-knife
+    title: Multi-functional
+    description: >-
+      **EasyDiffraction** integrates existing crystallographic libraries, such
+      as CrysPy and CrysFML (experimental), to cover different functionality.
+  - icon: fas fa-boxes
+    title: Various techniques
+    description: >-
+      Currently, we partially support 1D time-of-flight (TOF) and constant
+      wavelength (CWL) neutron and X-ray powder diffraction data. More features
+      will be added later.
+  - icon: fas fa-sync-alt
+    title: Live update of calculations
+    description: >-
+      You can modify any parameter manually or with a sidebar slider, and the
+      simulated model curve is automatically recalculated in real time.
+  - icon: fas fa-user
+    title: Human-readable syntax
+    description: >-
+      Input/output files are in simple and human-readable data format STAR/CIF
+      with the specifications of International Union of Crystallography, where
+      possible.
+
+documentation:
+  - icon: fa-solid fa-window-maximize
+    title: Application
+    description: >-
+      The [EasyDiffraction application documentation](https://docs.easydiffraction.org/app)
+      is the place to see how to use EasyDiffraction graphical user interface.
+  - icon: fas fa-book
+    title: Library
+    description: >-
+      The [EasyDiffraction library documentation](https://docs.easydiffraction.org/lib)
+      covers everything related to using EasyDiffraction as a python library.
+
+download:
+  - icon: fab fa-apple
+    top: Download for
+    bottom: macOS
+    details: macOS 14＋, Apple Silicon
+    url: https://github.com/EasyScience/EasyDiffractionBeta/releases/download/v$RELEASE_VERSION/EasyDiffraction_v$RELEASE_VERSION_macos-14-AppleSilicon.zip
+  - icon: fab fa-apple
+    top: Download for
+    bottom: macOS
+    details: macOS 13, Intel
+    url: https://github.com/EasyScience/EasyDiffractionBeta/releases/download/v$RELEASE_VERSION/EasyDiffraction_v$RELEASE_VERSION_macos-13-Intel.zip
+  - icon: fab fa-windows
+    top: Download for
+    bottom: Windows
+    details: Windows 10＋
+    url: https://github.com/EasyScience/EasyDiffractionBeta/releases/download/v$RELEASE_VERSION/EasyDiffraction_v$RELEASE_VERSION_windows-2022.zip
+  - icon: icon-ubuntu
+    top: Download for
+    bottom: Ubuntu
+    details: Ubuntu 22.04＋
+    url: https://github.com/EasyScience/EasyDiffractionBeta/releases/download/v$RELEASE_VERSION/EasyDiffraction_v$RELEASE_VERSION_ubuntu-22.04.zip
+  - icon: icon-snapcraft
+    top: Get it from the
+    bottom: Snap Store
+    details: Most Linux Distributions
+    url: https://snapcraft.io/easydiffraction
+  - icon: fab fa-github
+    top: Run it from
+    bottom: source
+    details: Multi-platform, Python
+    url: https://docs.easydiffraction.org/app/installation/from-source
+
+install:
+  pip: pip install easydiffraction
+
+contact:
+  - icon: fas fa-question-circle
+    title: General questions
+    description: >-
+      For general questions or comments, please contact us at
+      [support@easydiffraction.org](mailto:support@easydiffraction.org), or fill
+      out the form.
+  - icon: fas fa-bug
+    title: Issues and new features
+    description: >-
+      For bug reports and feature requests, please use
+      [GitHub Issue Tracker](https://github.com/easyscience/easydiffractionapp/issues)
+      instead (free registration required).

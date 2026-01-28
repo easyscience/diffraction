@@ -1,0 +1,156 @@
+name: Build and deploy static site
+
+on:
+  # Trigger the workflow on push
+  push:
+    # Every branch
+    branches:
+      - "**"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  # Set the environment variables to be used in all jobs defined in this workflow
+  # Set the CI_BRANCH environment variable to be the branch name
+  # NOTE: Use the same branch name as the one of EasyDiffractionLib. This is
+  # required to download the Jupyter notebooks from the EasyDiffractionLib repository
+  CI_BRANCH: ${{ github.head_ref || github.ref_name }}
+  REPOSITORY_NAME: diffraction
+  PROJECT_EMAIL: support@easydiffraction.org
+
+jobs:
+
+  # Job 1: Build the static files for the documentation site
+  build-page:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cancel previous workflow runs
+        uses: n1hility/cancel-previous-runs@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check-out repository
+        uses: actions/checkout@v4
+
+      # Download the template of the project landing page from the EasyScience/templates-page repository
+      - name: Download dependencies
+        working-directory: ..
+        run: git clone ${GITHUB_SERVER_URL}/EasyScience/templates-page
+
+      # Add the assets from the current project to the downloaded templates-page directory
+      - name: Add assets
+        run: cp -R assets ../templates-page/src/copy
+
+      # Create a config file with the repository name. This is used in the templates-page
+      - name: Create config
+        working-directory: ../templates-page
+        run: |
+          echo '{"project": "${{ env.REPOSITORY_NAME }}"}' > project.json
+
+      # Install npm dependencies needed to build the site in the templates-page directory
+      - name: Install npm dependencies
+        #working-directory: ../templates-page
+        run: |
+          cd ../templates-page
+          npm install
+
+      # Build the site in the templates-page directory
+      - name: Build site
+        #working-directory: ../templates-page
+        run: |
+          cd ../templates-page
+          npm run build
+
+      # Change the email in the contact.php file in the templates-page directory
+      - name: Change email in contact.php
+        #working-directory: ../templates-page
+        run: |
+          cd ../templates-page
+          node_modules/replace-in-file/bin/cli.js contact@easyscience.software ${{ env.PROJECT_EMAIL }} public/php/contact.php
+
+      # Copy the built site from the templates-page directory (../templates-page/public/) to
+      # the current project directory (site/)
+      - name: Copy built site to default working directory
+        run: cp -R ../templates-page/public/ site/
+
+      # Set up the Pages action to configure the static files to be deployed
+      # NOTE: The repository must have GitHub Pages enabled and configured to build using GitHub Actions
+      # This can be done via https://github.com/EasyScience/diffraction/settings/pages
+      # Select: Build and deploy - Source - GitHub Actions
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      # Upload the static files from the site/ directory to be used in the next job
+      # This artifact is named github-pages and is a single gzip archive containing a single tar file
+      # The artifact is then used in the next job by actions/deploy-pages to deploy the static files to GitHub Pages
+      # Unfortunately, the artifact is not available for download, so extra steps below are needed to do similar things
+      - name: Upload built site as artifact (for github-pages, all branches)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      # Upload the static files from the site/ directory to be used in the next job
+      # This extra step is needed to allow the download of the artifact in the next job
+      # for pushing its content to the branch named 'easydiffraction.org'
+      - name: Upload built site as artifact (for easydiffraction.org, master branch only)
+        if: ${{ env.CI_BRANCH == 'master' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifact # name of the artifact (without the extension zip)
+          path: site/
+          if-no-files-found: "error"
+          compression-level: 0
+
+  # Job 2: Deploy the static files
+  # To allow the deployment of the static files to GitHub Pages
+  # No restrictions on the branch name is set on https://github.com/EasyScience/diffraction/settings/environments
+  deploy-docs:
+    needs: build-page  # previous job 'build-page' need to be finished first
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      contents: read
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment, originates from an appropriate source
+
+    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+    # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages # Artifact name
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Deploy the static files created in the previous job to GitHub Pages
+      # All branches are deployed to GitHub Pages and available at
+      # https://easyscience.github.io/diffraction
+      # This is needed for debugging purposes
+      - name: Deploy to easyscience.github.io/diffraction (all branches)
+        uses: actions/deploy-pages@v4
+
+      - name: Download built site as artifact from previous job (for easydiffraction.org, master branch only)
+        if: ${{ env.CI_BRANCH == 'master' }}
+        uses: actions/download-artifact@v4
+        with:  # name or path are taken from the upload step of the previous job
+          name: artifact
+          path: site/ # directory to extract downloaded zipped artifacts
+
+      # Push the site files created in the previous job to the 'easydiffraction.org' branch
+      # This branch is used to deploy the site to the custom domain https://easydiffraction.org
+      # Deploying is done with a webhook: https://github.com/EasyScience/EasyDiffractionLibDocs/settings/hooks
+      # This is done for the 'master' branch only, when the site is tested with a step above
+      - name: Deploy to easydiffraction.org (master branch)
+        if: ${{ env.CI_BRANCH == 'master' }}
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
+          REPO: self
+          BRANCH: easydiffraction.org
+          FOLDER: site
