@@ -2,6 +2,15 @@
 __pycache__/
 .venv/
 .coverage
+.pyc
+
+# Pixi
+.pixi/
+
+# PyInstaller
+dist/
+build/
+*.spec
 
 # MkDocs
 docs/site/
@@ -14,16 +23,10 @@ node_modules/
 
 # QtCreator
 *.autosave
-
-# QtCreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
-
-# QtCreator Python
 *.pyproject.user
 *.pyproject.user.*
-
-# QtCreator CMake
 CMakeLists.txt.user*
 
 # PyCharm
@@ -36,3 +39,7 @@ CMakeLists.txt.user*
 .DS_Store
 *.app
 *.dmg
+
+# Misc
+*.log
+*.zip

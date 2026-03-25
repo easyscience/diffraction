@@ -9,7 +9,7 @@
   </picture>
 </p>
 
-**EasyDiffraction** is a scientific software for calculating neutron powder diffraction patterns based on a structural model and refining its parameters against experimental data.
+**EasyDiffraction** is a software for calculating neutron powder diffraction patterns based on a structural model and refining its parameters against experimental data.
 
 <!-- HOME REPOSITORY SECTION -->
 
@@ -27,7 +27,7 @@ This repository serves as the central hub for the **EasyDiffraction** family.
 
 ### Useful Links:
 
-- 💡[Discussions](https://github.com/easyscience/) - the main
+- 💡[Discussions](https://github.com/easyscience/diffraction) - the main
   discussion forum for the whole EasyDiffraction project.
 
 <!-- NON-HOME REPOSITORY SECTION -->
