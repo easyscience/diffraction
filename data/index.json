@@ -1,0 +1,496 @@
+{
+  "1": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-1.cif",
+    "kind": "sample_model",
+    "description": "La0.5Ba0.5CoO3 (crystal structure)",
+    "tags": [],
+    "hash": "sha256:a8a8970e26c4a932098d73502f720bc2092ea6585bc527c5c35c531a8b05d9ae"
+  },
+  "2": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-2.cif",
+    "kind": "experiment",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
+    "diffrn_source": {
+      "facility": "PSI",
+      "beamline": "HRPT"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:f13f1eccb87567201053c9a91fec08b772f418030b349ebd0aaf5076bbbd12cd"
+  },
+  "3": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-3.xye",
+    "kind": "experiment",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
+    "diffrn_source": {
+      "facility": "PSI",
+      "beamline": "HRPT"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:70dba3f642b394f0e7e7802a8637e0e287164562671993ee0701b813c902e360"
+  },
+  "4": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-4.gr",
+    "kind": "experiment",
+    "description": "NaCl.gr",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "xray",
+      "scattering_type": "total"
+    },
+    "tags": [],
+    "hash": "sha256:31afed7e01d650d4d205a95201ada28c0c1ba0b965fe648aa864165e506130f0"
+  },
+  "5": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-5.gr",
+    "kind": "experiment",
+    "description": "NOM_9999_Si_640g_PAC_50_ff_ftfrgr_up-to-50.gr",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "total"
+    },
+    "tags": [],
+    "hash": "sha256:1791c130254127567e94ea8b3af1e6880554d9d9fa33a2a891bc5f4a21310aaf"
+  },
+  "6": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-6.gr",
+    "kind": "experiment",
+    "description": "ni-q27r100-neutron_from-2.gr",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "total"
+    },
+    "tags": [],
+    "hash": "sha256:aa5f3f7f39565ac8f733c89cdebbb01302fa087a2b8e027014837d7321f9277c"
+  },
+  "7": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-7.xye",
+    "kind": "experiment",
+    "description": "Si, SEPD (Argonne)",
+    "diffrn_source": {
+      "facility": "Argonne",
+      "beamline": "SEPD"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:b798ebf3ad0b845e27d3f3ff95a5497899e60b7bee7d21771d06925a98127eab"
+  },
+  "8": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-8.xye",
+    "kind": "experiment",
+    "description": "La0.5Ba0.5CoO3 + Si, McStas simulation",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:0aeab4909604e14c0b0263a7ba5c926b7fca9f8e4223421f4672ec641fc0c915"
+  },
+  "9": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-9.xys",
+    "kind": "experiment",
+    "description": "NCAF, WISH (ISIS), Detector banks 5 & 6",
+    "diffrn_source": {
+      "facility": "ISIS",
+      "beamline": "WISH"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:bcbb403374e705e2864d48b2dc803778252da9320ac5dc33bce4e94a225ef9dc"
+  },
+  "10": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-10.xys",
+    "kind": "experiment",
+    "description": "NCAF, WISH (ISIS), Detector banks 4 & 7",
+    "diffrn_source": {
+      "facility": "ISIS",
+      "beamline": "WISH"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:e24493511795e5dc3390ad055ea43d346ef39c63dab68349a9deba00dfde2671"
+  },
+  "11": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-11.xye",
+    "kind": "experiment",
+    "description": "HS, HRPT (PSI)",
+    "diffrn_source": {
+      "facility": "PSI",
+      "beamline": "HRPT"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:6aaaf3318eb83e85adaa11082d7b49249aa85f593f0e8be85e33ce3c231ca4ef"
+  },
+  "12": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-12.xye",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL)",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:72ff3c5902cc9e87b7a9a6f4d87081e6367f1477a7958914e3d89c87ddc164e9"
+  },
+  "13": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-13.dat",
+    "kind": "experiment",
+    "description": "PbSO4, D1A (ILL)",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D1A"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:9f18f221e300fba0be9b4da55ce8377653e903f3c466de77cb70f43d07897092"
+  },
+  "14": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-14.dat",
+    "kind": "experiment",
+    "description": "PbSO4, D1A (ILL), first half of data set",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D1A"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:7604db5d5d9966016b6a3aec51ef5991e5339c5455f72d87fe9ce7a504b0b155"
+  },
+  "15": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-15.dat",
+    "kind": "experiment",
+    "description": "PbSO4, D1A (ILL), second half of data set",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D1A"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:f6cf576a6d33d7f4f074df1cac473914c80f81209c3ab753ecf480cdb2db0d50"
+  },
+  "16": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-16.dat",
+    "kind": "experiment",
+    "description": "PbSO4, laboratory X-ray",
+    "diffrn_source": {
+      "facility": "laboratory",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "xray",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:ebbbdf5843c4b1614db3285e729c4160cd90494244dc54887e1f32367381ed41"
+  },
+  "17": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-17.xye",
+    "kind": "experiment",
+    "description": "Si, McStas simulation, DMSC Summer School 2025",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:b9d6ea9e186dce9f37b174f7c04fbefd04c72a962de9814e12c865533fbb9a94"
+  },
+  "18": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-18.xye",
+    "kind": "experiment",
+    "description": "La0.5Ba0.5CoO3 + Si, McStas simulation, DMSC Summer School 2025",
+    "diffrn_source": {
+      "facility": "...",
+      "beamline": "..."
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:fcc6dc02e8a3d42705413ebd45731874390510b676b70ce98d020873caf78278"
+  },
+  "19": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-19.xye",
+    "kind": "experiment",
+    "description": "Tb2Ti2O7, HEiDi (MLZ)",
+    "diffrn_source": {
+      "facility": "MLZ",
+      "beamline": "HEiDi"
+    },
+    "expt_type": {
+      "sample_form": "single crystal",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:70f85294f87d9c658dd25f45f3162ac3cd567bc47e4291314cba1c19a2c02fe1"
+  },
+  "20": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-20.cif",
+    "kind": "sample_model",
+    "description": "Tb2Ti2O7 (crystal structure)",
+    "tags": [],
+    "hash": "sha256:a918868ab9c46843207f5e1be68e834d40cef382853f690141cddc5cbaa75d94"
+  },
+  "21": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-21.cif",
+    "kind": "sample_model",
+    "description": "Taurine (crystal structure)",
+    "tags": [],
+    "hash": "sha256:4094fcb31ccd65fec528bd496e35a406b3f8f19b995a1fb385c1aef87a5127f6"
+  },
+  "22": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-22.xye",
+    "kind": "experiment",
+    "description": "Taurine, SENJU (J-PARC)",
+    "diffrn_source": {
+      "facility": "J-PARC",
+      "beamline": "SENJU"
+    },
+    "expt_type": {
+      "sample_form": "single crystal",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:3e95b6ae250e6b1d20dc870c73b2adc8175b3d4af9a3368864c1501cfa490c4c"
+  },
+  "23": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-23.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 20 files, T from ~50K to ~70K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:b2120ff1e7905990308e9f96f158147093bbc2418b7f3228820822e1545a81df"
+  },
+  "24": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-24.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 156 files, T from ~50K to ~500K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:5ce20209ce52382f547269d93d511707ab6795d5f681b7cb77ba713705be5baa"
+  },
+  "25": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-25.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 3 files: ~50K, ~300K, ~500K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:17e6eb5855cf4a2b9fc2170c2b1c921f2ac55609c37626e47bf67b9778fb5878"
+  },
+  "26": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-26.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 46 files, T from ~50K to ~500K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:dcb7e60faf704c8e328d9fe3ca895179148435d9714901485e59428327f8ae21"
+  },
+  "27": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-27.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 23 files, T from ~60K to ~500K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:267043498afde9732a49286694904e3430e6e0e125e99832a7a12ea47bc59d63"
+  },
+  "28": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-28.zip",
+    "kind": "project",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
+    "tags": [],
+    "hash": "sha256:7f745387a97e3e987770f862a87e3c68a8bdc119ae638a2fea7af5deba5d01f7"
+  },
+  "29": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-29.zip",
+    "kind": "experiment",
+    "description": "Co2SiO4, D20 (ILL), 213 files, T from ~2K to ~500K",
+    "diffrn_source": {
+      "facility": "ILL",
+      "beamline": "D20"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:1bd6e37d693fd47a5ff7e95e86aeb94eb8f645c8fd44fed31ab8d7255b377e23"
+  },
+  "30": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-30.zip",
+    "kind": "project",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K - Updated #28",
+    "tags": [],
+    "hash": "sha256:ab85ee771d2a441979d7af3f7e2d7966045137a0408b26973c6a091792d6bb4a"
+  },
+  "31": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-31.dat",
+    "kind": "experiment",
+    "description": "LaM7O3, X-ray",
+    "diffrn_source": {
+      "facility": "",
+      "beamline": ""
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "xray",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:9337ae90cff8bba8dec359dc768c937767f8fd6e0305b6c2c916b9f3963d9a01"
+  },
+  "32": {
+    "url": "https://raw.githubusercontent.com/easyscience/data/refs/heads/master/diffraction/ed-32.dat",
+    "kind": "experiment",
+    "description": "LaM7O3, X-ray",
+    "diffrn_source": {
+      "facility": "",
+      "beamline": ""
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "xray",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:e765b549242eafa18312e207fb30c1b811b793d5b9477d95e7dca08f23514ace"
+  }
+}
