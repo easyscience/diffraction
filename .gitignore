@@ -43,4 +43,3 @@ CMakeLists.txt.user*
 # Misc
 .cache/
 *.log
-*.zip
