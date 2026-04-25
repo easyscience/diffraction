@@ -507,7 +507,7 @@
       "radiation_probe": "neutron",
       "scattering_type": "bragg"
     },
-    "tags": [], 
+    "tags": [],
     "hash": "sha256:68bdc067bda10fa07bfa9546375fa1ac85dd575add401c6b813cbd066cdb7d5e"
   }
 }
