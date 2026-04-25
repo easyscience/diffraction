@@ -492,5 +492,22 @@
     },
     "tags": [],
     "hash": "sha256:e765b549242eafa18312e207fb30c1b811b793d5b9477d95e7dca08f23514ace"
+  },
+  "33": {
+    "path": "ed-33.zip",
+    "kind": "experiment",
+    "description": "ferrite + austenite, BEER (ESS), S2 and N2 detector bank datasets",
+    "diffrn_source": {
+      "facility": "ESS",
+      "beamline": "BEER"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "time-of-flight",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "tags": [],
+    "hash": "sha256:68bdc067bda10fa07bfa9546375fa1ac85dd575add401c6b813cbd066cdb7d5e"
   }
 }
