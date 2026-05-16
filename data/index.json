@@ -509,5 +509,12 @@
     },
     "tags": [],
     "hash": "sha256:68bdc067bda10fa07bfa9546375fa1ac85dd575add401c6b813cbd066cdb7d5e"
+  },
+  "34": {
+    "path": "ed-34.zip",
+    "kind": "project",
+    "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
+    "tags": [],
+    "hash": "sha256:eecfe37756af1e6aee058a1c588c4fa8ef38812d912378e16871107bf01275eb"
   }
 }
