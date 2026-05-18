@@ -522,20 +522,20 @@
     "kind": "project",
     "description": "Bayesian Analysis: LBCO, HRPT",
     "tags": [],
-    "hash": "sha256:bf43ad2cb26afb1f5a5c6830147e27556826534bd43730596b7ac384b1c58ee2"
+    "hash": "sha256:0e6234fcd119b156eec066c7e5a71211a2096fb4e6c5079c212cd1d57b569bc1"
   },
   "36": {
     "path": "ed-36.zip",
     "kind": "project",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K - Updated #30",
     "tags": [],
-    "hash": "sha256:852fde662bcfbda7cfcb8aa7f9fa3641e32faa00af1b60defa252722cd85e811"
+    "hash": "sha256:4f016069373e3600d6639f937300fce2dc05f72a94c6b4b6328bc2bd41650353"
   },
   "37": {
     "path": "ed-37.zip",
     "kind": "project",
     "description": "Co2SiO4, D20 (ILL), T-scan (resumed) - Updated #34",
     "tags": [],
-    "hash": "sha256:319cb0c03fd03da647360c1181698938c40cf44562e6c7aac1c3dde251b5ead0"
+    "hash": "sha256:1efca7909d3580799903419d65c7526587f63ce8ccae04e193e6fd26a03987e4"
   }
 }
