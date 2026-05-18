@@ -516,5 +516,26 @@
     "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
     "tags": [],
     "hash": "sha256:796f9691ce97652bdb588b8d1317cfb0c7262d7002a0744657c6bbe311cdd9d0"
+  },
+  "35": {
+    "path": "ed-35.zip",
+    "kind": "project",
+    "description": "Bayesian Analysis: LBCO, HRPT",
+    "tags": [],
+    "hash": "sha256:bf43ad2cb26afb1f5a5c6830147e27556826534bd43730596b7ac384b1c58ee2"
+  },
+  "36": {
+    "path": "ed-36.zip",
+    "kind": "project",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K - Updated #30",
+    "tags": [],
+    "hash": "sha256:852fde662bcfbda7cfcb8aa7f9fa3641e32faa00af1b60defa252722cd85e811"
+  },
+  "37": {
+    "path": "ed-37.zip",
+    "kind": "project",
+    "description": "Co2SiO4, D20 (ILL), T-scan (resumed) - Updated #34",
+    "tags": [],
+    "hash": "sha256:319cb0c03fd03da647360c1181698938c40cf44562e6c7aac1c3dde251b5ead0"
   }
 }
