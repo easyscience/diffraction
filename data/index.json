@@ -453,9 +453,10 @@
     "hash": "sha256:1bd6e37d693fd47a5ff7e95e86aeb94eb8f645c8fd44fed31ab8d7255b377e23"
   },
   "30": {
+    "replaces": "28",
     "path": "ed-30.zip",
     "kind": "project",
-    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K - Updated #28",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "tags": [],
     "hash": "sha256:ab85ee771d2a441979d7af3f7e2d7966045137a0408b26973c6a091792d6bb4a"
   },
@@ -525,17 +526,34 @@
     "hash": "sha256:1dc5f889b7d53529870b5ad00ae2dcaa1283e57c354cc3b51205b489de7bb124"
   },
   "36": {
+    "replaces": "30",
     "path": "ed-36.zip",
     "kind": "project",
-    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K - Updated #30",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K,
     "tags": [],
     "hash": "sha256:4f016069373e3600d6639f937300fce2dc05f72a94c6b4b6328bc2bd41650353"
   },
   "37": {
+    "replaces": "34",
     "path": "ed-37.zip",
     "kind": "project",
-    "description": "Co2SiO4, D20 (ILL), T-scan (resumed) - Updated #34",
+    "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
     "tags": [],
     "hash": "sha256:768a712b123b617027720241df3dcf273094ecf5c60699cf55074c3e40915545"
+  },
+  "38": {
+    "path": "ed-38.zip",
+    "kind": "project",
+    "description": "Bayesian Analysis (emcee): LBCO, HRPT",
+    "tags": [],
+    "hash": "sha256:55db9f5b28f209d6f421aac284319b817fddb99911ff593f97e30f7e8a347ed6"
+  },
+  "39": {
+    "replaces": "35",
+    "path": "ed-39.zip",
+    "kind": "project",
+    "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
+    "tags": [],
+    "hash": "sha256:8a151c7ce6801f9cad30ed6a1119cfecba5234b186a72a69cb5d7dfc2ffeb1fe"
   }
 }
