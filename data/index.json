@@ -587,5 +587,37 @@
     "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
     "tags": [],
     "hash": "sha256:0aa5a3cbcd50ae0bc940f389cadd2b7f7ddc35b707c42155c533d2f8aea2675f"
+  },
+  "44": {
+    "replaces": "40",
+    "path": "ed-44.zip",
+    "kind": "project",
+    "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
+    "tags": [],
+    "hash": "sha256:7b2a33cd6e2106f5426a2ab8b9509312e4db1ce7ad9f5307294786891dd8332b"
+  },
+  "45": {
+    "replaces": "41",
+    "path": "ed-45.zip",
+    "kind": "project",
+    "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
+    "tags": [],
+    "hash": "sha256:f86cc84c8ad33f6c3d229a6034211aa4c881367547c88816ec11f38dc1a68b58"
+  },
+  "46": {
+    "replaces": "42",
+    "path": "ed-46.zip",
+    "kind": "project",
+    "description": "Bayesian Analysis (emcee): LBCO, HRPT",
+    "tags": [],
+    "hash": "sha256:c06b2b7703a4c2fa20074046c43a33c9c10820a1587e5472d2a6f8eb791fe591"
+  },
+  "47": {
+    "replaces": "43",
+    "path": "ed-47.zip",
+    "kind": "project",
+    "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
+    "tags": [],
+    "hash": "sha256:cd9b65dba8a8859ea20c7b39888845a59d474ef1b8330e786b13f1f51d320b70"
   }
 }
