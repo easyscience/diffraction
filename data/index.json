@@ -1,5 +1,5 @@
 {
-  "experiments/lbco-hrpt": {
+  "expt-lbco-hrpt": {
     "path": "experiments/lbco-hrpt.edifa",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "diffrn_source": {
@@ -14,7 +14,7 @@
     },
     "hash": "sha256:6ed6da3baf96caadbf7e456d973ed2852a56575beca9ae28f28ba87fd60df82b"
   },
-  "measured/cosio-d20": {
+  "meas-cosio-d20": {
     "path": "measured/cosio-d20.xye",
     "description": "Co2SiO4, D20 (ILL)",
     "diffrn_source": {
@@ -29,7 +29,7 @@
     },
     "hash": "sha256:72ff3c5902cc9e87b7a9a6f4d87081e6367f1477a7958914e3d89c87ddc164e9"
   },
-  "measured/cosio-d20-scan-156f": {
+  "meas-cosio-d20-scan-156f": {
     "path": "measured/cosio-d20-scan-156f.zip",
     "description": "Co2SiO4, D20 (ILL), 156 files, T from ~50K to ~500K",
     "diffrn_source": {
@@ -44,7 +44,7 @@
     },
     "hash": "sha256:5ce20209ce52382f547269d93d511707ab6795d5f681b7cb77ba713705be5baa"
   },
-  "measured/cosio-d20-scan-20f": {
+  "meas-cosio-d20-scan-20f": {
     "path": "measured/cosio-d20-scan-20f.zip",
     "description": "Co2SiO4, D20 (ILL), 20 files, T from ~50K to ~70K",
     "diffrn_source": {
@@ -59,7 +59,7 @@
     },
     "hash": "sha256:b2120ff1e7905990308e9f96f158147093bbc2418b7f3228820822e1545a81df"
   },
-  "measured/cosio-d20-scan-213f": {
+  "meas-cosio-d20-scan-213f": {
     "path": "measured/cosio-d20-scan-213f.zip",
     "description": "Co2SiO4, D20 (ILL), 213 files, T from ~2K to ~500K",
     "diffrn_source": {
@@ -74,7 +74,7 @@
     },
     "hash": "sha256:1bd6e37d693fd47a5ff7e95e86aeb94eb8f645c8fd44fed31ab8d7255b377e23"
   },
-  "measured/cosio-d20-scan-23f": {
+  "meas-cosio-d20-scan-23f": {
     "path": "measured/cosio-d20-scan-23f.zip",
     "description": "Co2SiO4, D20 (ILL), 23 files, T from ~60K to ~500K",
     "diffrn_source": {
@@ -89,7 +89,7 @@
     },
     "hash": "sha256:267043498afde9732a49286694904e3430e6e0e125e99832a7a12ea47bc59d63"
   },
-  "measured/cosio-d20-scan-3f": {
+  "meas-cosio-d20-scan-3f": {
     "path": "measured/cosio-d20-scan-3f.zip",
     "description": "Co2SiO4, D20 (ILL), 3 files: ~50K, ~300K, ~500K",
     "diffrn_source": {
@@ -104,7 +104,7 @@
     },
     "hash": "sha256:17e6eb5855cf4a2b9fc2170c2b1c921f2ac55609c37626e47bf67b9778fb5878"
   },
-  "measured/cosio-d20-scan-46f": {
+  "meas-cosio-d20-scan-46f": {
     "path": "measured/cosio-d20-scan-46f.zip",
     "description": "Co2SiO4, D20 (ILL), 46 files, T from ~50K to ~500K",
     "diffrn_source": {
@@ -119,7 +119,7 @@
     },
     "hash": "sha256:dcb7e60faf704c8e328d9fe3ca895179148435d9714901485e59428327f8ae21"
   },
-  "measured/ferrite-austenite-beer": {
+  "meas-ferrite-austenite-beer": {
     "path": "measured/ferrite-austenite-beer.zip",
     "description": "ferrite + austenite, BEER (ESS), S2 and N2 detector bank datasets",
     "diffrn_source": {
@@ -134,7 +134,7 @@
     },
     "hash": "sha256:68bdc067bda10fa07bfa9546375fa1ac85dd575add401c6b813cbd066cdb7d5e"
   },
-  "measured/hep7c-xray-cuka": {
+  "meas-hep7c-xray-cuka": {
     "path": "measured/hep7c-xray-cuka.dat",
     "description": "La high-entropy perovskite (7 B-cations), laboratory Cu K-alpha",
     "diffrn_source": {
@@ -149,7 +149,7 @@
     },
     "hash": "sha256:e765b549242eafa18312e207fb30c1b811b793d5b9477d95e7dca08f23514ace"
   },
-  "measured/hep7c-xray-synchrotron": {
+  "meas-hep7c-xray-synchrotron": {
     "path": "measured/hep7c-xray-synchrotron.dat",
     "description": "La high-entropy perovskite (7 B-cations), synchrotron X-ray",
     "diffrn_source": {
@@ -164,7 +164,7 @@
     },
     "hash": "sha256:9337ae90cff8bba8dec359dc768c937767f8fd6e0305b6c2c916b9f3963d9a01"
   },
-  "measured/hs-hrpt": {
+  "meas-hs-hrpt": {
     "path": "measured/hs-hrpt.xye",
     "description": "HS, HRPT (PSI)",
     "diffrn_source": {
@@ -179,7 +179,7 @@
     },
     "hash": "sha256:6aaaf3318eb83e85adaa11082d7b49249aa85f593f0e8be85e33ce3c231ca4ef"
   },
-  "measured/lbco-hrpt": {
+  "meas-lbco-hrpt": {
     "path": "measured/lbco-hrpt.xye",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "diffrn_source": {
@@ -194,7 +194,7 @@
     },
     "hash": "sha256:70dba3f642b394f0e7e7802a8637e0e287164562671993ee0701b813c902e360"
   },
-  "measured/lbco-si-mcstas": {
+  "meas-lbco-si-mcstas": {
     "path": "measured/lbco-si-mcstas.xye",
     "description": "La0.5Ba0.5CoO3 + Si, McStas simulation",
     "diffrn_source": {
@@ -209,7 +209,7 @@
     },
     "hash": "sha256:0aeab4909604e14c0b0263a7ba5c926b7fca9f8e4223421f4672ec641fc0c915"
   },
-  "measured/lbco-si-mcstas-dmsc2025": {
+  "meas-lbco-si-mcstas-dmsc2025": {
     "path": "measured/lbco-si-mcstas-dmsc2025.xye",
     "description": "La0.5Ba0.5CoO3 + Si, McStas simulation, DMSC Summer School 2025",
     "diffrn_source": {
@@ -224,7 +224,7 @@
     },
     "hash": "sha256:fcc6dc02e8a3d42705413ebd45731874390510b676b70ce98d020873caf78278"
   },
-  "measured/nacl-pdf": {
+  "meas-nacl-pdf": {
     "path": "measured/nacl-pdf.gr",
     "description": "NaCl, PDF",
     "diffrn_source": {
@@ -239,7 +239,7 @@
     },
     "hash": "sha256:31afed7e01d650d4d205a95201ada28c0c1ba0b965fe648aa864165e506130f0"
   },
-  "measured/ncaf-wish-b47": {
+  "meas-ncaf-wish-b47": {
     "path": "measured/ncaf-wish-b47.xys",
     "description": "NCAF, WISH (ISIS), Detector banks 4 & 7",
     "diffrn_source": {
@@ -254,7 +254,7 @@
     },
     "hash": "sha256:e24493511795e5dc3390ad055ea43d346ef39c63dab68349a9deba00dfde2671"
   },
-  "measured/ncaf-wish-b56": {
+  "meas-ncaf-wish-b56": {
     "path": "measured/ncaf-wish-b56.xys",
     "description": "NCAF, WISH (ISIS), Detector banks 5 & 6",
     "diffrn_source": {
@@ -269,7 +269,7 @@
     },
     "hash": "sha256:bcbb403374e705e2864d48b2dc803778252da9320ac5dc33bce4e94a225ef9dc"
   },
-  "measured/ni-pdf": {
+  "meas-ni-pdf": {
     "path": "measured/ni-pdf.gr",
     "description": "Ni, PDF",
     "diffrn_source": {
@@ -284,7 +284,7 @@
     },
     "hash": "sha256:aa5f3f7f39565ac8f733c89cdebbb01302fa087a2b8e027014837d7321f9277c"
   },
-  "measured/pbso4-d1a": {
+  "meas-pbso4-d1a": {
     "path": "measured/pbso4-d1a.dat",
     "description": "PbSO4, D1A (ILL)",
     "diffrn_source": {
@@ -299,7 +299,7 @@
     },
     "hash": "sha256:9f18f221e300fba0be9b4da55ce8377653e903f3c466de77cb70f43d07897092"
   },
-  "measured/pbso4-d1a-part1": {
+  "meas-pbso4-d1a-part1": {
     "path": "measured/pbso4-d1a-part1.dat",
     "description": "PbSO4, D1A (ILL), first half of data set",
     "diffrn_source": {
@@ -314,7 +314,7 @@
     },
     "hash": "sha256:7604db5d5d9966016b6a3aec51ef5991e5339c5455f72d87fe9ce7a504b0b155"
   },
-  "measured/pbso4-d1a-part2": {
+  "meas-pbso4-d1a-part2": {
     "path": "measured/pbso4-d1a-part2.dat",
     "description": "PbSO4, D1A (ILL), second half of data set",
     "diffrn_source": {
@@ -329,7 +329,7 @@
     },
     "hash": "sha256:f6cf576a6d33d7f4f074df1cac473914c80f81209c3ab753ecf480cdb2db0d50"
   },
-  "measured/pbso4-xray": {
+  "meas-pbso4-xray": {
     "path": "measured/pbso4-xray.dat",
     "description": "PbSO4, laboratory X-ray",
     "diffrn_source": {
@@ -344,7 +344,7 @@
     },
     "hash": "sha256:ebbbdf5843c4b1614db3285e729c4160cd90494244dc54887e1f32367381ed41"
   },
-  "measured/si-mcstas-dmsc2025": {
+  "meas-si-mcstas-dmsc2025": {
     "path": "measured/si-mcstas-dmsc2025.xye",
     "description": "Si, McStas simulation, DMSC Summer School 2025",
     "diffrn_source": {
@@ -359,7 +359,7 @@
     },
     "hash": "sha256:b9d6ea9e186dce9f37b174f7c04fbefd04c72a962de9814e12c865533fbb9a94"
   },
-  "measured/si-pdf-nomad": {
+  "meas-si-pdf-nomad": {
     "path": "measured/si-pdf-nomad.gr",
     "description": "Si, NOMAD (SNS), PDF",
     "diffrn_source": {
@@ -374,7 +374,7 @@
     },
     "hash": "sha256:1791c130254127567e94ea8b3af1e6880554d9d9fa33a2a891bc5f4a21310aaf"
   },
-  "measured/si-sepd": {
+  "meas-si-sepd": {
     "path": "measured/si-sepd.xye",
     "description": "Si, SEPD (Argonne)",
     "diffrn_source": {
@@ -389,7 +389,7 @@
     },
     "hash": "sha256:b798ebf3ad0b845e27d3f3ff95a5497899e60b7bee7d21771d06925a98127eab"
   },
-  "measured/taurine-senju": {
+  "meas-taurine-senju": {
     "path": "measured/taurine-senju.xye",
     "description": "Taurine, SENJU (J-PARC)",
     "diffrn_source": {
@@ -404,7 +404,7 @@
     },
     "hash": "sha256:3e95b6ae250e6b1d20dc870c73b2adc8175b3d4af9a3368864c1501cfa490c4c"
   },
-  "measured/tbti-heidi": {
+  "meas-tbti-heidi": {
     "path": "measured/tbti-heidi.xye",
     "description": "Tb2Ti2O7, HEiDi (MLZ)",
     "diffrn_source": {
@@ -419,37 +419,37 @@
     },
     "hash": "sha256:70f85294f87d9c658dd25f45f3162ac3cd567bc47e4291314cba1c19a2c02fe1"
   },
-  "projects/cosio-d20-scan": {
+  "proj-cosio-d20-scan": {
     "path": "projects/cosio-d20-scan.zip",
     "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
     "hash": "sha256:a686728530310094b8623ad9674b74e2ec35f438272d2975c24bab8827095fea"
   },
-  "projects/lbco-hrpt": {
+  "proj-lbco-hrpt": {
     "path": "projects/lbco-hrpt.zip",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "hash": "sha256:950791b57dc250cca604958e5df85681abff8b9e38bd8e04eefa698a7801519e"
   },
-  "projects/lbco-hrpt-dream": {
+  "proj-lbco-hrpt-dream": {
     "path": "projects/lbco-hrpt-dream.zip",
     "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
     "hash": "sha256:b99e1f527df3154130bc72bd626c7a4055e31fb4371a172eae501f5c8bb784b5"
   },
-  "projects/lbco-hrpt-emcee": {
+  "proj-lbco-hrpt-emcee": {
     "path": "projects/lbco-hrpt-emcee.zip",
     "description": "Bayesian Analysis (emcee): LBCO, HRPT",
     "hash": "sha256:9a5cae85082baea34f0036702497c5e6f5bc4b3caf5969d56fd5f494c1e23977"
   },
-  "structures/lbco": {
+  "struct-lbco": {
     "path": "structures/lbco.cif",
     "description": "La0.5Ba0.5CoO3 (crystal structure)",
     "hash": "sha256:a8a8970e26c4a932098d73502f720bc2092ea6585bc527c5c35c531a8b05d9ae"
   },
-  "structures/taurine": {
+  "struct-taurine": {
     "path": "structures/taurine.cif",
     "description": "Taurine (crystal structure)",
     "hash": "sha256:4094fcb31ccd65fec528bd496e35a406b3f8f19b995a1fb385c1aef87a5127f6"
   },
-  "structures/tbti": {
+  "struct-tbti": {
     "path": "structures/tbti.cif",
     "description": "Tb2Ti2O7 (crystal structure)",
     "hash": "sha256:a918868ab9c46843207f5e1be68e834d40cef382853f690141cddc5cbaa75d94"
