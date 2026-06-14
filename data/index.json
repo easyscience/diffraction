@@ -422,22 +422,22 @@
   "proj-cosio-d20-scan": {
     "path": "projects/cosio-d20-scan.zip",
     "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
-    "hash": "sha256:a686728530310094b8623ad9674b74e2ec35f438272d2975c24bab8827095fea"
+    "hash": "sha256:db6dec492e9eafb0328482e859ca08532a64de8d022faab360e8027b29f1ef81"
   },
   "proj-lbco-hrpt": {
     "path": "projects/lbco-hrpt.zip",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
-    "hash": "sha256:950791b57dc250cca604958e5df85681abff8b9e38bd8e04eefa698a7801519e"
+    "hash": "sha256:69567a1925907503c9e79d19449f49d7b18dba82240c9f7810b8f248c053376d"
   },
   "proj-lbco-hrpt-dream": {
     "path": "projects/lbco-hrpt-dream.zip",
     "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
-    "hash": "sha256:b99e1f527df3154130bc72bd626c7a4055e31fb4371a172eae501f5c8bb784b5"
+    "hash": "sha256:230e9f623b9b3d779ac068c400370ab9ce8d672ac3428cc6320f41eff97b35fe"
   },
   "proj-lbco-hrpt-emcee": {
     "path": "projects/lbco-hrpt-emcee.zip",
     "description": "Bayesian Analysis (emcee): LBCO, HRPT",
-    "hash": "sha256:9a5cae85082baea34f0036702497c5e6f5bc4b3caf5969d56fd5f494c1e23977"
+    "hash": "sha256:872a777e3a48b8d702c2b03bf1caa99cb8629c8edd65c645b128876ba7bcf802"
   },
   "struct-lbco": {
     "path": "structures/lbco.cif",
