@@ -1,6 +1,6 @@
 {
   "experiments/lbco-hrpt": {
-    "path": "experiments/lbco-hrpt.easydiff",
+    "path": "experiments/lbco-hrpt.edifa",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "diffrn_source": {
       "facility": "PSI",
@@ -12,7 +12,7 @@
       "radiation_probe": "neutron",
       "scattering_type": "bragg"
     },
-    "hash": "sha256:6c42d78ecc33b0bcb54092c08894d41edab1c84bc347e32c271ba25fde9d08cd"
+    "hash": "sha256:6ed6da3baf96caadbf7e456d973ed2852a56575beca9ae28f28ba87fd60df82b"
   },
   "measured/cosio-d20": {
     "path": "measured/cosio-d20.xye",
@@ -422,22 +422,22 @@
   "projects/cosio-d20-scan": {
     "path": "projects/cosio-d20-scan.zip",
     "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
-    "hash": "sha256:f86cc84c8ad33f6c3d229a6034211aa4c881367547c88816ec11f38dc1a68b58"
+    "hash": "sha256:a686728530310094b8623ad9674b74e2ec35f438272d2975c24bab8827095fea"
   },
   "projects/lbco-hrpt": {
     "path": "projects/lbco-hrpt.zip",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
-    "hash": "sha256:7b2a33cd6e2106f5426a2ab8b9509312e4db1ce7ad9f5307294786891dd8332b"
+    "hash": "sha256:950791b57dc250cca604958e5df85681abff8b9e38bd8e04eefa698a7801519e"
   },
   "projects/lbco-hrpt-dream": {
     "path": "projects/lbco-hrpt-dream.zip",
     "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
-    "hash": "sha256:cd9b65dba8a8859ea20c7b39888845a59d474ef1b8330e786b13f1f51d320b70"
+    "hash": "sha256:b99e1f527df3154130bc72bd626c7a4055e31fb4371a172eae501f5c8bb784b5"
   },
   "projects/lbco-hrpt-emcee": {
     "path": "projects/lbco-hrpt-emcee.zip",
     "description": "Bayesian Analysis (emcee): LBCO, HRPT",
-    "hash": "sha256:c06b2b7703a4c2fa20074046c43a33c9c10820a1587e5472d2a6f8eb791fe591"
+    "hash": "sha256:9a5cae85082baea34f0036702497c5e6f5bc4b3caf5969d56fd5f494c1e23977"
   },
   "structures/lbco": {
     "path": "structures/lbco.cif",
