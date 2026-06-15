@@ -432,12 +432,12 @@
   "proj-lbco-hrpt-dream": {
     "path": "projects/lbco-hrpt-dream.zip",
     "description": "Bayesian Analysis (bumps-dream): LBCO, HRPT",
-    "hash": "sha256:230e9f623b9b3d779ac068c400370ab9ce8d672ac3428cc6320f41eff97b35fe"
+    "hash": "sha256:9ba660bfc3cb6acb6963f06bd425dc189206b8ef5daffb9241ef39bade851f96"
   },
   "proj-lbco-hrpt-emcee": {
     "path": "projects/lbco-hrpt-emcee.zip",
     "description": "Bayesian Analysis (emcee): LBCO, HRPT",
-    "hash": "sha256:872a777e3a48b8d702c2b03bf1caa99cb8629c8edd65c645b128876ba7bcf802"
+    "hash": "sha256:46f71a6f173effbd0c2b62b2c1ca686cac811383698c7348463fee3ae1125654"
   },
   "struct-lbco": {
     "path": "structures/lbco.cif",
