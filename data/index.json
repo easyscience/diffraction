@@ -1,6 +1,6 @@
 {
   "expt-lbco-hrpt": {
-    "path": "experiments/lbco-hrpt.edifa",
+    "path": "experiments/lbco-hrpt.edi",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
     "diffrn_source": {
       "facility": "PSI",
@@ -12,7 +12,7 @@
       "radiation_probe": "neutron",
       "scattering_type": "bragg"
     },
-    "hash": "sha256:6ed6da3baf96caadbf7e456d973ed2852a56575beca9ae28f28ba87fd60df82b"
+    "hash": "sha256:1f86792411e2df77e084098d8f1d220d80f1aad46573a3a7533ce1f7e44389f3"
   },
   "meas-cosio-d20": {
     "path": "measured/cosio-d20.xye",

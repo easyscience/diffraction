@@ -1,7 +1,6 @@
 data_hrpt
 
-_edifa.schema_name EasyDiffraction
-_edifa.schema_version 1
+_edi.schema_version 1
 
 _experiment_type.sample_form powder
 _experiment_type.beam_mode "constant wavelength"
