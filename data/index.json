@@ -285,7 +285,7 @@
     "hash": "sha256:aa5f3f7f39565ac8f733c89cdebbb01302fa087a2b8e027014837d7321f9277c"
   },
   "meas-pbso4-d1a": {
-    "path": "measured/pbso4-d1a.dat",
+    "path": "measured/pbso4-d1a.xys",
     "description": "PbSO4, D1A (ILL)",
     "diffrn_source": {
       "facility": "ILL",
@@ -297,7 +297,7 @@
       "radiation_probe": "neutron",
       "scattering_type": "bragg"
     },
-    "hash": "sha256:9f18f221e300fba0be9b4da55ce8377653e903f3c466de77cb70f43d07897092"
+    "hash": "sha256:0ebfd3ed320a908a6c9418cac927d2e2ef47e168ad1d9b84bfe67d191826fdf8"
   },
   "meas-pbso4-d1a-part1": {
     "path": "measured/pbso4-d1a-part1.dat",
@@ -330,7 +330,7 @@
     "hash": "sha256:f6cf576a6d33d7f4f074df1cac473914c80f81209c3ab753ecf480cdb2db0d50"
   },
   "meas-pbso4-xray": {
-    "path": "measured/pbso4-xray.dat",
+    "path": "measured/pbso4-xray.xys",
     "description": "PbSO4, laboratory X-ray",
     "diffrn_source": {
       "facility": "laboratory",
@@ -342,7 +342,7 @@
       "radiation_probe": "xray",
       "scattering_type": "bragg"
     },
-    "hash": "sha256:ebbbdf5843c4b1614db3285e729c4160cd90494244dc54887e1f32367381ed41"
+    "hash": "sha256:1d4508a6296bc00f1858d1833502cb524394c80900f986f2771df1d6ad797855"
   },
   "meas-si-mcstas-dmsc2025": {
     "path": "measured/si-mcstas-dmsc2025.xye",
