@@ -224,6 +224,21 @@
     },
     "hash": "sha256:fcc6dc02e8a3d42705413ebd45731874390510b676b70ce98d020873caf78278"
   },
+  "meas-lmo-echidna": {
+    "path": "measured/ECH0027637_LMO_5_1p6215A.dat",
+    "description": "LMO, ECHIDNA (ANSTO), wavelength 1.6215 A",
+    "diffrn_source": {
+      "facility": "ANSTO",
+      "beamline": "ECHIDNA"
+    },
+    "expt_type": {
+      "sample_form": "powder",
+      "beam_mode": "constant wavelength",
+      "radiation_probe": "neutron",
+      "scattering_type": "bragg"
+    },
+    "hash": "sha256:11926e7692aa4d08aa91ea4f9d82a71fd4e42aa1dbd473d3f6b8394564310fd4"
+  },
   "meas-nacl-pdf": {
     "path": "measured/nacl-pdf.gr",
     "description": "NaCl, PDF",
