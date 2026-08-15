@@ -439,6 +439,11 @@
     "description": "Co2SiO4, D20 (ILL), 213-file T-scan resume project with 210 completed results",
     "hash": "sha256:cee816aee63d72196cb4d3607d1b87b3d39ee8b952b590b91a08b0f5c3bc15cb"
   },
+  "proj-fitting-exercise-si-lbco-main": {
+    "path": "projects/fitting-exercise-si-lbco-main.zip",
+    "description": "La0.5Ba0.5CoO3 + Si, fitted DMSC exercise project",
+    "hash": "sha256:62547397a81c396e52a6d1d3eb596c4f6f89fa64fbf1a0415a0e54a8809b0c39"
+  },
   "proj-lbco-hrpt": {
     "path": "projects/lbco-hrpt.zip",
     "description": "La0.5Ba0.5CoO3, HRPT (PSI), 300 K",
