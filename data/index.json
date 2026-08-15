@@ -421,8 +421,8 @@
   },
   "proj-cosio-d20-scan": {
     "path": "projects/cosio-d20-scan.zip",
-    "description": "Co2SiO4, D20 (ILL), T-scan (resumed)",
-    "hash": "sha256:db6dec492e9eafb0328482e859ca08532a64de8d022faab360e8027b29f1ef81"
+    "description": "Co2SiO4, D20 (ILL), 213-file T-scan resume project with 210 completed results",
+    "hash": "sha256:cee816aee63d72196cb4d3607d1b87b3d39ee8b952b590b91a08b0f5c3bc15cb"
   },
   "proj-lbco-hrpt": {
     "path": "projects/lbco-hrpt.zip",
