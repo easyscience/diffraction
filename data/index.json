@@ -225,7 +225,7 @@
     "hash": "sha256:fcc6dc02e8a3d42705413ebd45731874390510b676b70ce98d020873caf78278"
   },
   "meas-lmo-echidna": {
-    "path": "measured/ECH0027637_LMO_5_1p6215A.dat",
+    "path": "measured/ech_lmo.dat",
     "description": "LMO, ECHIDNA (ANSTO), wavelength 1.6215 A",
     "diffrn_source": {
       "facility": "ANSTO",
